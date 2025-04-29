@@ -1,0 +1,326 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You Tube</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1384/1384060.png"type="image/">
+<style>
+    .container {
+            display: flex;
+            align-items: center; 
+        }
+        .container h2 {
+    margin-right: 20px;
+}
+
+        .container img {
+        
+            margin-right: 10px; 
+            border-radius: 8px;
+        }
+        .subscribe{
+            font-weight: bold;       
+            border: 2px solid black; 
+            border-radius: 8px;     
+            background-color: black; 
+            color: white;            
+            padding: 8px 16px;      
+            cursor: pointer;         
+        }
+
+        .subscribe:hover {
+            background-color: white;
+            color: black;
+        }
+        .video{
+            border-radius:20px;   
+            
+        }
+        .image
+        {
+            margin-left:200px;
+            border: 1px solid whitesmoke;
+            border-radius:8px;
+
+        }
+        .image:hover{
+            background-color:lightcyan;
+            color:black;
+        }
+        .image1
+        {
+           
+            border: 5px solid whitesmoke;
+            border-radius:8px;
+            background-color:whitesmoke ;
+
+        }
+        .image1:hover{
+            background-color:lightcyan;
+            color:black;
+        }
+        .image2
+        {
+            margin-left:25px;
+          border-color: whitesmoke;
+            border-radius:5px;
+            background-color:whitesmoke ;
+
+        }
+        .image2:hover{
+            background-color:lightcyan;
+        
+        }
+        .image3
+        {
+            margin-left:50px;
+          border-color: whitesmoke;
+            border-radius:50px;
+            background-color:whitesmoke ;
+
+        }
+        .image3:hover{
+            background-color:lightcyan;
+        
+        }
+        .main-content {
+    display: flex;
+    align-items: flex-start;
+  
+    margin-top: 20px;
+    padding : 10px;
+    gap: 30px;
+}
+
+.main-video {
+    flex: 3;
+    max-width: 900px;
+}
+
+.recommended {
+    flex: 1;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 10px;
+}
+       
+  
+  .video-card {
+    display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  }
+  
+  .video-card iframe {
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+
+  }
+  .video-card p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 14px;
+  flex: 1;
+  word-wrap: break-word;
+}
+.video-card2 {
+    display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  }
+  
+  .video-card2 iframe {
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+
+  }
+  .video-card2 p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 14px;
+  flex: 1;
+  word-wrap: break-word;
+}
+.video-card3 {
+    display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  }
+  
+  .video-card3 iframe {
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+
+  }
+  .video-card3 p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 14px;
+  flex: 1;
+  word-wrap: break-word;
+}
+.video-card4 {
+    display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  }
+  
+  .video-card4 iframe {
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+
+  }
+  .video-card4 p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 14px;
+  flex: 1;
+  word-wrap: break-word;
+}
+.video-info .channel-info {
+      font-size: 14px;
+      color: #606060;
+    }
+
+    .video-info .video-title {
+    margin-bottom: 10px; 
+    font-weight: bold; 
+}
+
+.video-info .channel-info {
+    margin-top: 10px;    
+}
+
+        
+
+</style>
+</head>
+<body>
+
+    
+    <table width="100%">
+        <tr>
+            <td>
+                <button>
+                    <img src="https://www.shutterstock.com/image-vector/menu-button-three-horizontal-lines-600w-785528545.jpg" alt="Menu" height="50" width="50">
+                </button>
+            </td>
+            <td>
+                <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" height="50" width="50">
+            </td>
+            <td>
+                <input type="text" placeholder="Search" size="60" style="height: 40px; font-size: 18px;">
+            </td>
+            <td>
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/000/420/512/small/Multimedia__28138_29.jpg" height="50" width="50">
+            </td>
+            <td>
+                <img src="https://static.thenounproject.com/png/5109176-200.png" height="50" width="50">
+            </td>
+            <td>
+                <img src="https://webgraphiz.com/_next/image?url=https%3A%2F%2Fcdn.geekboots.com%2Fweb%2Fnotification-bell-mainImg-1665682161845.webp&w=640&q=75" height="50" width="50">
+            </td>
+            <td>
+                <button>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBDTyw83C7GyjlZjwCTtuiH3AeSOCV9wURLA&s" alt="Account" height="50" width="50">
+                </button>
+            </td>
+        </tr>
+    </table>
+    <div class="main-content">
+        <div class="main-video">
+    
+    <iframe class="video"width="900" height="500" src="https://www.youtube.com/embed/8ZpImShEo-M?si=-7YmLI_2D0CDHMeM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h1>1 in a Trillion Football Moments</h1>
+   
+
+    <div class="container">
+    <img width="50" height ="50"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd7RU-2vIMheKqljcA_nOGRoLRb61b1MW4vQ&s">
+    <h2>Ash Studio</h2>
+    <input type="button" value="Subscribe" class="subscribe">
+    <button class="image"><img width="50" height ="50" src="https://www.freeiconspng.com/thumbs/youtube-like-png/youtube-like-png-28.png"></button>
+    <button class="image1"><img width="40" height="40" src="https://png.pngitem.com/pimgs/s/209-2098846_clip-art-png-images-free-download-thumbs-down.png"></button>
+<button class="image2"><img width="60" height="60" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCoeFneaDI7Lir_5dfrpKcAl2QqGuUA-z_7g&s"></button>
+<button class="image3"><img width="60" height="60" src="https://www.shutterstock.com/shutterstock/videos/3413273497/thumb/4.jpg?ip=x480"></button>
+</div>
+</div>
+<aside class="recommended">
+    <div class="video-card">
+        <div class="thumbnail">
+      <iframe src="https://www.youtube.com/embed/2RVni4AVYIw?si=NXZVNCqLvR-9lxSI" title="Recommended Video" frameborder="0" allowfullscreen></iframe>
+      
+    </div>
+    <div class="video-info">
+        <div class="video-title">Last Minute Games | Match 1</div>
+        <div class="channel-info">
+          <p> Moments </p>
+          <p>18M views | 5 months ago</p>
+        </div>
+      </div>
+    </div>
+    <div class="video-card2">
+        <div class="thumbnail">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PDssZYOvlQA?si=K6QjoFk7eGxrSorR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+    </div>
+    <div class="video-info">
+        <div class="video-title">Real Madrid Barcelona Extended Goals | Match 1</div>
+        <div class="channel-info">
+          <p> Moments </p>
+          <p>18M views | 5 months ago</p>
+        </div>
+      </div>
+    </div>
+    <div class="video-card3">
+        <div class="thumbnail">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/i3tcsO277qs?si=Y0zb2NCcJcEA-NJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </div>
+    <div class="video-info">
+        <div class="video-title">MS Dhoni Centuries</div>
+        <div class="channel-info">
+          <p> MS Dhoni Hightlighting Videos </p>
+          <p>30M views | 5 months ago</p>
+        </div>
+      </div>
+    </div>
+    <div class="video-card4">
+        <div class="thumbnail">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Hc6vmaY-_Xs?si=8Kos5K0aOc1iNsxL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="video-info">
+        <div class="video-title">Football | Matches</div>
+        <div class="channel-info">
+          <p> Football </p>
+          <p>18M views | 5 months ago</p>
+        </div>
+      </div>
+    </div>
+  </aside>
+</div>
+
+
+    </body>
+    </html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script src="form.js"></script>
+</head>
+
+<body>
+    <form name="registration" onsubmit="return submitForm()">
+       
+        <span class='nameErrorClass'>Hi</span>
+        <span class='nameErrorClass'>Hello</span>
+       
+        
+        <div>
+            <button  onclick="onClick()">Click</button>
+            <label for="nameId">Name</label>
+            <span style="color: red;">*</span>
+            <span>:</span>
+            <input type="text" id="nameId" name="nameName" required>
+        </div>
+<br>
+        <div>
+            <label for="emailId">Email</label>
+            <span style="color: red;">*</span>
+            <span>:</span>
+            <input type="email" id="emailId" name="emailName" required>
+        </div>
+<br>
+        <div>
+            <label for="phoneId">Phone</label>
+            <span style="color: red;">*</span>
+            <span>:</span>
+            <input type="tel" id="phoneId" name="phoneName">
+        </div>
+<br>
+        <div>
+            <label for="ageId">Age</label>
+            <span style="color: red;">*</span>
+            <span>:</span>
+            <input type="number" id="ageId" name="ageName" min="0" max="150">
+        </div>
+<br>
+        <div>
+            <label for="genderId">Gender</label>
+            <span>:</span>
+            <select id="genderId" name="genderName">
+                <option value="">Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+<br>
+        <div>
+            <button type="submit" value="Submit">Submit</button>
+            <button type="reset" value="Clear">Clear</button>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,58 @@
+.navClass{
+    background-color:brown;
+    border-radius: 2vh; 
+}
+.navClass ul{  
+    overflow: auto;
+    padding: 0;
+    background-color:lightsalmon;
+    border-radius: 2vh; 
+}
+      
+
+.navClass ul li{
+    float: left;
+    background-color:lightsalmon;
+    list-style: none;
+    padding: 5vh;
+    border-radius: 2vh; 
+}
+
+
+.navClass ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 5vh;
+    border-radius: 2vh; 
+}
+
+.navClass ul li a:hover{
+    background-color:brown;
+    border-radius: 1vh; 
+}
+
+
+    
+    
+    
+    #searchId{
+        background-color:lightgoldenrodyellow;  
+        padding-left:100px;
+        height: 6vh;
+        width: 45vh;
+        border-radius:2vh;
+        background-position:1px center;
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyi_CVTmoL1ITHFxQkfLwvj93hcsgA1Olkhg&s');
+        background-repeat: no-repeat;
+        background-size:40px 40px;
+      
+    }
+    #searchId input {
+        height: 7vh;
+        width: 25vh;
+        border: none;
+        padding: 1vh;
+        border-radius: 0.5vh;
+    }
+   
+  
