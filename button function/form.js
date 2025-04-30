@@ -18,24 +18,45 @@ function submitForm() {
         "\nPhone: " + phoneValue +
         "\nAge: " + ageValue +
         "\nGender: " + genderValue);
+        if (nameValue.length<3 || nameValue.length>20){
+            onClick();
+            isValid=false;
+            setError("nameErrorId",'The name should be min 3 abd max 20');
+        
+            }
+            else{
+                clearForm("nameErrorId");
+            }
 
     if (phoneValue.length != 10) {
 
         isValid = false;
+        setError("numberErrorId",'The length should be 10 digits');
+        
         
     }
-    if (ageValue < 18) {
-        isValid = false;
+    else{
+        clearForm('numberErrorId');
+    }
+    //if (ageValue < 18) {
+        //isValid = false;
+       // setError("numberErrorId",'The age should be above 18');
        
-    }
+    //}
     
-    if (nameValue.length<3 || nameValue.length>20){
-    onClick();
-    isValid=false;
-        
-        
-    }
+   
         return isValid;
 
+
+}
+function setError(id,message)
+{
+    console.log(id);
+    console.log(message);
+    document.getElementById(id).innerHTML=message;
+}
+function clearForm(id)
+{
+    document.getElementById(id).innerHTML='';
 }
 
