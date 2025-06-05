@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script src="form.js"></script>
+</head>
+
+<body>
+    <form name="registration" onsubmit="return submitForm()">
+        <div>
+ 
+                <label for="nameId">Name</label>
+                <span style="color: red;">*</span>
+                <span>:</span>
+                <input type="text" id="nameId" name="nameName" required>
+                <span id="nameErrorId"></span>
+            </div>
+    <br>
+    <div>
+        <label for="phoneId">Phone</label>
+        <span style="color: red;">*</span>
+        <span>:</span>
+        <input type="tel" id="phoneId" name="phoneName">
+        <span style="color:red" id="numberErrorId"></span>
+    </div>
+<br>

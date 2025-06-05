@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+     <style>
+        .redColor {
+            color: red;
+        }
+        form {
+            text-align: center;
+            margin-top: 50px;
+        }
+        div {
+            margin-bottom: 10px;
+        }
+    </style>
+    <script src="form1.js"></script>
+</head>
+<body>
+    <center><h1> Form Registration </h1></center>
+    <form name="formName" onsubmit=" return validate()">
+        <div>
+        <label>Name </label>
+        <span class="redColor">*</span>
+        <span>:</span>
+        <input type="text" id="nameID" name="nameName" required>
+        </div>
+        <br>
+         <div>
+
+        <label>email</label>
+        <span>:</span>
+        <input type="email" id="emailID" name="emailName" required>
+        </div>
+        <br>
+         <div>
+        <label>Address </label>
+        <span>:</span>
+        <input type="text" id="addressID" name="addressName" required>
+        </div>
+        <br>
+         <div>
+        <label>Phone Number </label>
+        <span>:</span>
+        <input type="number" id="phoneId" name="phoneName" required>
+        </div>
+        <br>
+         <div>
+       
+         <div>
+        <label>password </label>
+        <span class="redColor">*</span>
+        <span>:</span>
+        <input type="password" id="passwordID" name="passwordNum" required>
+        </div>
+        <br>
+         <div>
+        <label>Confirm Password </label>
+        <span class="redColor">*</span>
+        <span>:</span>
+        <input type="password" id="confirmpasswordID" name="confirmpasswordNum" required>
+        </div>
+        <div>
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+        </div>
+    </form>
+</body>
+</html>

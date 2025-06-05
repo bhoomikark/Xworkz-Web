@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sweet Treats - Home</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">🍰 Sweet Treats</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="cakes.html">Cakes</a></li>
+   
+          <li class="nav-item"><a class="nav-link" href="order.html">Order</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="bg-dark text-white text-center py-5" style="background-image: url('images/cake-banner.jpg'); background-size: cover; background-position: center;">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Welcome to Sweet Treats</h1>
+      <p class="lead mb-4">Delicious Cakes Made with Love</p>
+      <a href="cakes.html" class="btn btn-warning btn-lg">Explore Our Cakes</a>
+    </div>
+  </header>
+  <main>
+  <!-- Hero Banner -->
+  <section class="bg-light text-center py-5">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Welcome to Sweet Treats 🍰</h1>
+      <p class="lead mb-4">Delicious handmade cakes crafted just for you!</p>
+      <a href="cakes.html" class="btn btn-warning btn-lg">Browse Our Cakes</a>
+    </div>
+  </section>
+
+  <!-- Featured Cakes -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Our Featured Cakes</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="images/cake1.jpg" class="card-img-top" alt="Chocolate Delight" />
+            <div class="card-body">
+              <h5 class="card-title">Chocolate Delight</h5>
+              <p class="card-text">Rich chocolate cake with creamy frosting and chocolate chips.</p>
+              <a href="order.html" class="btn btn-warning">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="images/cake2.jpg" class="card-img-top" alt="Vanilla Dream" />
+            <div class="card-body">
+              <h5 class="card-title">Vanilla Dream</h5>
+              <p class="card-text">Classic vanilla sponge cake with fresh cream and strawberry topping.</p>
+              <a href="order.html" class="btn btn-warning">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="images/cake3.jpg" class="card-img-top" alt="Red Velvet" />
+            <div class="card-body">
+              <h5 class="card-title">Red Velvet</h5>
+              <p class="card-text">Soft and moist red velvet cake with smooth cream cheese frosting.</p>
+              <a href="order.html" class="btn btn-warning">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Special Offers -->
+  <section class="bg-warning text-dark py-5">
+    <div class="container text-center">
+      <h2 class="mb-3">Special Offers 🎉</h2>
+      <p class="lead">Get 15% off on your first order! Use code <strong>WELCOME15</strong> at checkout.</p>
+      <a href="order.html" class="btn btn-dark btn-lg">Order Now & Save</a>
+    </div>
+  </section>
+
+  <!-- Customer Testimonials Carousel -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">What Our Customers Say</h2>
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active text-center">
+            <blockquote class="blockquote">
+              <p>"The chocolate cake was divine! Perfect for my birthday."</p>
+              <footer class="blockquote-footer">Anita Sharma</footer>
+            </blockquote>
+          </div>
+          <div class="carousel-item text-center">
+            <blockquote class="blockquote">
+              <p>"I loved the vanilla dream cake – light and fresh."</p>
+              <footer class="blockquote-footer">Raj Patel</footer>
+            </blockquote>
+          </div>
+          <div class="carousel-item text-center">
+            <blockquote class="blockquote">
+              <p>"Red velvet cake was a showstopper at our party."</p>
+              <footer class="blockquote-footer">Meera Joshi</footer>
+            </blockquote>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Signup -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <h2 class="mb-3 text-center">Subscribe to Our Newsletter</h2>
+      <form class="row justify-content-center">
+        <div class="col-md-6">
+          <input type="email" class="form-control form-control-lg" placeholder="Enter your email" required />
+        </div>
+        <div class="col-md-2">
+          <button type="submit" class="btn btn-warning btn-lg w-100">Subscribe</button>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+      <p class="mb-1">© 2025 Sweet Treats. All rights reserved.</p>
+      <div>
+        <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
